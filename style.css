@@ -1,0 +1,40 @@
+/*
+Theme Name: Boutique Child
+Theme URI: https://wp2-beardymrdeaks.c9users.io
+Description: Modified child theme based on the Boutique theme, by Elegant Themes
+Author: Sam Deacon
+Author URI: http://samdeacon.me.uk
+Template: Boutique
+Version: 0.0.2
+Text Domain:  boutique-child
+*/
+/***************************************
+FRONT PAGE - STYLES
+***************************************/
+.featured-description, h2.featured-title.title-override a {
+  color: #434343 !important; }
+
+p#slogan {
+  color: #FF6FFF !important;
+  font-size: 16px !important; }
+
+/***************************************
+MENU ITEMS - MAIN MENU
+***************************************/
+#top-menu .menu-item a {
+  font-size: 18px; }
+
+#top-menu .menu-item a {
+  color: #434343 !important; }
+
+/***************************************
+MENU ITEMS - SECONDARY MENU
+***************************************/
+#secondary-menu .menu-item a {
+  color: #FF6FFF !important; }
+
+/***************************************
+POST/PRODUCT ITEMS - POST PAGE INDIVIDUAL
+***************************************/
+#et-slides .price-tag {
+  left: 20px !important; }

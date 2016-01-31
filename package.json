@@ -1,0 +1,23 @@
+{
+  "name": "boutique-child",
+  "version": "1.0.0",
+  "description": "wordpress childtheme - based on BOUTIQUE Theme - premium theme by ELEGNT THEMES",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wordpress",
+    "boutique",
+    "browsersync",
+    "gulp",
+    "sass"
+  ],
+  "author": "Sam Deacon",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1"
+  }
+}
