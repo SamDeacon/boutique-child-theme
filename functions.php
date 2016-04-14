@@ -12,6 +12,29 @@ add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles', 'child_theme_enqueue_s
 // }
 
 
+/***********************************
+ * Create custom checkout button
+ * 
+ * ********************************/
+// [button link="/shopping-cart/checkout" color="pink"] [icon name="icon_cursor_alt"]Checkout[/button]
+function add_shopping_cart_button(){
+?>
+<button class="shopping-cart-button">
+    <a href="/shopping-cart/checkout">
+    
+    Checkout
+    
+    </a>
+</button>
+
+
+<?php
+}
+
+add_shortcode ('cart-cta', 'add_shopping_cart_button' );
+
+    
+
 
 
 /***********************************
